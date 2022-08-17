@@ -1,6 +1,7 @@
 import React from "react"
+import { contactType } from "../types"
 
-const ContactInfo = ({ name, email, phone }) => {
+const ContactInfo = ({ name, email, phone }: contactType) => {
   return (
     <div>
       <strong>Name:</strong>
